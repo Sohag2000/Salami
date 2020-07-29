@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+	margin: 0;
+}
+#header-top{
+	background-color: #899434;
+	height: 50px;
+	line-height: 50px;
+}
+#header-top a{
+	color: #ffffff;
+	font-size: 15px;
+}
+#header-top .social-icon a{
+	margin: 0 5px;
+	border: 1px solid #ffffff;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	transition: color 200ms, background-color 200ms;
+}
+#header-top .social-icon a:hover{
+	color: #000;
+	background-color: #fff;
+}
+#header-top .social-icon a:last-child{
+	margin-right: 0;
+}
+/**************************/
+
+.banner-area{
+	background: url(img/banner-img.jpg) no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+}
+.banner-area .navbar{
+	font-family: 'Philosopher', sans-serif;
+}
+.banner-area .navbar .nav-link{
+	font-size: 18px;
+	color: #fff;
+	padding: 15px;
+}
+.banner-area .navbar i{
+	color: #fff;
+	cursor: pointer;
+}
+.banner-area .navbar li.active{
+	color: #747b4a!important;
+}
+.content-area {
+	color: #ffffff;
+	text-align: center;
+	width: 70%;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+.content-area h1{
+	margin-bottom: 20px;
+	font-size: 48px;
+	font-weight: 700;
+	font-family: 'Philosopher', sans-serif;
+}
+.content-area p{
+	text-transform: uppercase;
+}
+.content-area .common-btn{
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	background-color: #F79D05;
+	text-decoration: none;
+	margin-top: 30px;
+	border-radius: 3px;
+}
+/****************************************/
+
+.player-area{
+	background-color: #282923;
+	padding: 30px 0;
+}
+.player-area h2{
+	color: #ffffff;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 24px;
+}
+.player-area p{
+	color: #ffffff;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+.player-area span{
+	color: #ffffff;
+	margin: 6px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 1px 0 0 2px;
+}
+.player-area span i{
+	font-size: 15px;
+	cursor: pointer;
+}
+.player-area span:nth-child(2){
+	background-color: #8A9536;
+	color: #000;
+}
+.player-area .player-img img{
+	width: 100%;
+	height: 100%
+}
+.player-img{
+	width: 60px;
+	height: 55px;
+	border: 1px solid #ffffff;
+}
+.bar-btm{
+	width: 100%;
+	height: 3px;
+	background-color: #444444;
+}
+.bar-top{
+	width: 30%;
+	background-color: orange;
+	height: 3px;
+}
+.float-left,
+.float-right{
+	font-size: 14px;
+}
+
+/**************************************/
+
+.welcome-area{
+	background: url(img/welcome-bg.png) no-repeat; 
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.welcome-left{
+	margin-right: 30px;
+}
+.welcome-left img{
+	margin-bottom: 25px;	
+}
+.welcome-left img:first-child{
+	width: 100%;
+	height: 100%;
+}
+.welcome-left img:nth-child(3){
+	margin-right: 20px;
+}
+.welcome-right img{
+	margin-bottom: 10px;
+}
+.welcome-right h4{
+	color: #9FA75E;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+.welcome-right h2{
+	color: #222222;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+.welcome-right h3{
+	color: #B23A00;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+	padding: 5px 0;
+	width: 80%;
+	margin: 10px 0;
+	border-top: 1px dashed #B23A00;
+	border-bottom: 1px dashed #B23A00;
+}
+.big-letter{
+	font-size: 50px;
+	font-family: 'Philosopher', sans-serif;
+	float: left;
+	margin-right: 5px;
+	padding: 0;
+}
+.p-content p{
+	margin-top: 25px;
+	font-size: 14px;
+	color: #595959;
+	font-family: 'Noto Serif', serif;
+}
+.welcome-right a{
+	margin-top: 50px;
+	background-color: #8A9536;
+	font-size: 14px;
+	padding: 10px 35px;
+	font-family: 'Philosopher', sans-serif;
+}
+/*************************************/
+
+.prayer-area{
+	background-color: #000000;
+	padding: 20px 0;
+	text-align: center;
+}
+.prayer-logo{
+	margin-top: -20px;
+	padding: 0 60px;
+}
+.prayer-content{
+	margin-top: -30px;
+}
+.prayer-content h4{
+	margin: 15px 0;
+	font-size: 15px;
+	color: #818B33;
+	font-style: italic;
+	font-family: 'Noto Serif', serif;
+}
+.prayer-content h2{
+	font-size: 35px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Philosopher', sans-serif;
+}
+.prayer-button{
+	margin: 30px auto 40px;
+	background-color: #9b3403;
+	width: 50%;
+	border-radius: 20px 0 20px 0;
+	padding: 15px 5px;
+}
+.prayer-pattern{
+	background: url(img/pattern.png) no-repeat;
+	background-position: center; 
+}
+.prayer-button span{
+	font-size: 15px;
+	color: #ffffff;
+	margin: 0 10px;
+	font-family: 'Noto Serif', serif;
+	font-weight: normal;
+}
+.prayer-button span img{
+	width: 6%;
+	height: 6%;
+}
+.prayer-times{
+	padding-bottom: 50px;
+}
+.prayer-times img{
+	width: 23px;
+	height: 34px;
+}
+.prayer-times h3{
+	margin: 10px 0;
+	color: #E5E5E5;
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+	font-size: 16px;
+}
+.prayer-times h2{
+	color: #E5E5E5;
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	font-size: 20px;
+	
+}
+/************Prayer area End*****************/
+.services-area{
+	background: url(img/welcome-bg.png) no-repeat; 
+	background-position: center;
+	background-size: cover;
+	padding: 60px 0 30px;
+}
+.top-section img{
+	margin-bottom: 15px;
+}
+.top-section h4{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #A1A960;
+	font-size: 15px;
+}
+.top-section h2{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #222222;
+}
+.mosque-d img{
+	position: relative;
+}
+.mosque-dev{
+	position: absolute;
+	top: 68%;
+	left:40%;
+	background-color: #ffffff;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	padding: 5px;
+	box-shadow: 1px 1px 5px gray;	
+}
+.mosque-dev img{
+	z-index:1;
+	width: 50%;
+	margin-top: 5px;
+}
+.img-heading{
+	margin-top: 45px;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 22px;
+
+}
+/*******************************************/
+
+.donation-area{
+	background: url(img/donation-img.png) no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding: 40px 0;
+}
+.the-novel{
+	padding: 30px 0;
+}
+.the-novel img{
+	margin-bottom: 15px;
+}
+
+.the-novel h4{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #A1A960;
+	font-size: 15px;
+}
+.the-novel h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Philosopher', sans-serif;
+	color: #222222;
+	margin: 0 0 10px;
+}
+.the-novel p{
+	font-family: 'Noto Serif', serif;
+	font-size: 13px;
+	margin: 0 0 20px;
+	color: #393939;
+}
+.donation-content{
+	border-top: 2px dotted gray;
+	border-bottom: 2px dotted gray;
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
+.donation-content h3{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+	color: #9b3403;
+}
+.donation-content p.text-center{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	font-size: 14px;
+	margin: 0;
+	color: #393939;
+	text-transform: uppercase;
+}
+.help-poor{
+	margin-top: 40px; 
+	text-align: center;
+	float: right;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 100%;
+	height: 88%;
+	padding: 50px 30px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #dcdbdb;
+}
+.progress-img img{
+	margin-top: 0;
+}	
+.top-heading{
+	margin: 30px 0;
+}
+.help-poor h2{
+	padding: 20px 0 0;
+	font-size: 30px;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold; 
+}
+.help-poor span{
+	font-size: 13px;
+	margin-right: 20px;
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	color: #333333;
+}	
+.help-poor span:last-child{
+	margin-right: 0;
+}
+.help-poor p{
+	font-family: 'Noto Serif', serif;
+	font-size: 12px;
+	color: #6C6C6C;
+	margin: 20px 0 30px;
+	line-height: 20px;
+}
+.help-poor a{
+	background-color: #F79D05;
+	padding: 10px 30px;
+}
+.icons{
+	font-size: 8px;
+	margin-top: 40px;
+}
+.fa-circle{
+	margin-right: 5px;
+	color: #999999;
+}
+.fa-circle:nth-child(2){
+	color: #CCCCCC;
+}
+.fa-circle:nth-child(3){
+	color: #CCCCCC;
+}
+/*****************************************/
+.pillars-islam{
+	background-color: #151515;
+	padding: 50px 0;
+}
+.pollars-content img{
+	margin-bottom: 10px;
+}
+.pollars-content h2{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+}
+.pillars{
+	padding: 100px 0 15px;
+	margin-left: 50px;
+}
+.pillars h3{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 25px;
+	margin: 20px 0 5px;
+}
+.pillars p{
+	font-family: 'Noto Serif', serif;
+	color: #9D9D9D;
+	font-size: 14px;
+	font-style: italic;
+	margin: 0;
+}
+.salah-area,
+.zakat-area{
+	margin-top: -15px;
+}
+.sawm-area{
+	margin-top: -60px;
+}
+p.text-center{
+	color: #F4F4F4;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	line-height: 23px;
+}
+/******************************************/
+
+.events-area{
+	padding: 50px 0;
+	background: url(img/welcome-bg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.events-content img{
+	margin-bottom: 15px;
+}
+
+.events-content h4{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #A1A960;
+	font-size: 15px;
+}
+.event-count{
+	box-shadow: 1px 1px 10px #d9d8da;
+}
+.events-content h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Philosopher', sans-serif;
+	color: #222222;
+	margin: 0 0 30px;
+}
+.events-duration{
+	background: url(img/events.jpg) no-repeat;
+	height: 60vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.events-duration h2{
+	padding-top: 300px;
+	font-weight: bold;
+	font-family: 'Philosopher', sans-serif;
+	margin-bottom: 0;
+}
+.events-duration p{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;	
+}
+.right-events{
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 40px 50px;
+}
+.right-events h3{
+	color: #3D3D3D;
+	font-size: 30px;
+	font-family: 'Philosopher', sans-serif;
+	border-bottom: 2px dotted #3D3D3D;
+	padding-bottom: 20px;
+}
+.right-events span{
+	margin-right: 40px;
+	font-size: 13px;
+	color: #5D5D5D;
+}
+.right-events span:last-child{
+	margin-right: 0;
+}
+.right-events span img{
+	width: 2%;
+	line-height: 2%;
+	margin-right: 5px;
+}
+.right-events p{
+	border-top: 2px dotted #3D3D3D;
+	margin-top: 10px;
+	padding-top: 20px;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	color: #494949; 
+}
+.right-events a{
+	text-decoration: none;
+	background-color: #F79D05;
+	padding: 10px 30px;
+}
+.events-slider{
+	margin-top: 60px;
+}
+.events-slider img:nth-child(2){
+	border: 5px solid #F0F0F1;
+}
+.events-slider img:nth-child(3){
+	border: 5px solid #F0F0F1;
+	box-shadow: 2px 2px 20px;
+}
+.events-slider img:nth-child(4){
+	border: 5px solid #F0F0F1;
+}
+/*********************************************/
+
+.correct-way{
+	background-color: #1C1C1C;
+	padding: 50px 0;
+}
+.ablution-namaj{
+	padding-top: 6%;
+}
+.ablution-namaj h2{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+.ablution-namaj a{
+	text-decoration: none;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+}
+/********************************************/
+
+.islamic-news{
+	padding: 50px 0;
+	background: url(img/welcome-bg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.islamic-content img{
+	margin-bottom: 15px;
+}
+
+.islamic-content h4{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #A1A960;
+	font-size: 15px;
+}
+.islamic-content h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Philosopher', sans-serif;
+	color: #222222;
+	margin: 0 0 30px;
+}
+img.event-gellery{
+	margin: 20px 0 15px;
+}
+.islamic-center-news span{
+	margin-right: 25px;
+	font-size: 13px;
+	color: #5D5D5D;
+	font-family: 'Noto Serif', serif;
+}
+.islamic-center-news span i{
+	margin-right: 5px;
+}
+.islamic-center-news h2{
+	margin: 25px 0;
+	font-size: 35px;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+}
+.islamic-center-news p{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	color: #494949;
+}
+.islamic-center-news img{
+	margin: 25px 0 15px;
+}
+.islamic-center-news a{
+	text-decoration: none;
+	color: #B23A00;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Philosopher', sans-serif;
+}
+/********************************************/
+
+.footer-top{
+	background-color: #111111;
+	padding: 50px 0;
+	border-bottom: 2px solid #515151;
+}
+.logo-content{
+	margin-bottom: 50px;
+}
+.logo-content img{
+	margin-bottom: 25px;
+}
+.logo-content p{
+	color: #8E8E8E;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+}
+.list-salami li.site-area{
+	font-size: 25px;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.list-salami ul li a{
+	color: #5D5D5D;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'Noto Serif', serif;
+	line-height: 30px;
+	transition: color 200ms;
+}
+.list-salami ul li a:hover{
+	color: #B23A00;
+}
+.list-salami ul i{
+	padding: 10px 5px;
+	font-size: 20px;
+	color: #5D5D5D;
+	transition: color 200ms;
+}
+.list-salami ul i:hover{
+	color: #B23A00;
+}
+/***********************************************/
+
+.footer-area{
+	background-color: #111111;
+	padding: 50px 0;
+}
+.subscribe-content h2{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+.subscribe-area input[type='email']{
+	width: 80%;
+	padding: 10px 10px;
+	background-color: #222222;
+	color: #717171;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+.subscribe-area input[type='submit']{
+	padding: 9px 20px;
+	margin-top: -5px;
+	margin-left: -6px;
+	background-color: #8A9536;
+	font-family: 'Philosopher', sans-serif;
+}
+.copyright-area{
+	padding-top: 60px;
+}
+.copyright-area p{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	color: #616161;
+}
+.copyright-area a{
+	text-decoration: none;
+	color: #616161;
+	font-size: 14;
+	transition: color 200ms;
+}
+.copyright-area a:hover{
+	color: #B23A00;
+}
+/*******************************************/
